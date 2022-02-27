@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+## Tour App
+
+this is a simple add that calls fetcung data from API and display some tour info
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
