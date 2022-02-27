@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Cards.css'
 
 const Cards = (props) => {
-    const {id, image, info, name, price} = props;
+    const {id, image, info, name, price, handleRemoveTour} = props;
 
     const [isReadMore, setIsReadMore] = useState(true)
 
@@ -20,6 +20,7 @@ const Cards = (props) => {
                {isReadMore ? <p className='card-info'>{info.substring(0,100)}... <span onClick={handleClick}>read more</span></p> : <p className='card-info'>{info}</p>} 
               
             </div>
+            <button className='card-remove' onClick={()=> handleRemoveTour(id)}>remove</button>
     
         </article>
     );

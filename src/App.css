@@ -2,6 +2,7 @@
   text-align: center;
   color: aliceblue;
 }
-.loading {
+.loading,
+.err-msg {
   color: aqua;
 }

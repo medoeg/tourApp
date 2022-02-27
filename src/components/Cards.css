@@ -30,6 +30,19 @@
   text-align: left;
 }
 
+.card-remove {
+  border: 1px solid red;
+  background-color: rgb(13, 4, 20);
+  border-radius: 5px;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1rem;
+}
+
 img {
   object-fit: cover;
   width: 100%;
